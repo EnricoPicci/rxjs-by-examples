@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-by-example",
+  "version": "1.0.0",
+  "description": "examples of using rxjs to solve some problems inpired by questions posted on stack-overflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs",
+    "typescript",
+    "reactive",
+    "reactivex",
+    "reactiveprogramming"
+  ],
+  "author": "Picci",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  }
+}
