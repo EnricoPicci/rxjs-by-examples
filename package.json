@@ -4,17 +4,8 @@
   "description": "examples of using rxjs to solve some problems inpired by questions posted on stack-overflow",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register src/*.spec.ts src/**/*.spec.ts"
   },
-  "keywords": [
-    "rxjs",
-    "typescript",
-    "reactive",
-    "reactivex",
-    "reactiveprogramming"
-  ],
-  "author": "Picci",
-  "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/mocha": "^5.2.5",
@@ -23,5 +14,26 @@
     "mocha": "^5.2.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.3"
-  }
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "rxjs": "^6.3.2"
+  },
+  "keywords": [
+    "rxjs",
+    "typescript",
+    "reactive",
+    "reactivex",
+    "reactiveprogramming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnricoPicci/rxjs-by-examples.git"
+  },
+  "author": "Enrico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnricoPicci/rxjs-by-examples/issues"
+  },
+  "homepage": "https://github.com/EnricoPicci/rxjs-by-examples#readme"
 }
